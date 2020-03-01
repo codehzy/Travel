@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-  @import '~styles/iconfont/varibles.styl'
+  @import '~styles/varibles.styl'
   .header
     display:flex
     line-height :.86rem
