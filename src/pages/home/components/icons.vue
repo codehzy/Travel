@@ -62,6 +62,31 @@ export default {
         id: '0009',
         imgUrl: '//s.qunarzz.com/homenode/images/touchheader/flight.png',
         desc: '机票'
+      },
+      {
+        id: '0010',
+        imgUrl: 'https://picbed.qunarzz.com/377db8cb2143aebf01869c9baad3d325.png',
+        desc: '汽车票船票'
+      },
+      {
+        id: '0011',
+        imgUrl: 'https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/a40ee278d67000f2a29d2e20f6a029b3.png',
+        desc: '自然风光'
+      },
+      {
+        id: '0012',
+        imgUrl: '//s.qunarzz.com/homenode/images/touchheader/flight.png',
+        desc: '机票'
+      },
+      {
+        id: '0013',
+        imgUrl: 'https://picbed.qunarzz.com/377db8cb2143aebf01869c9baad3d325.png',
+        desc: '汽车票船票'
+      },
+      {
+        id: '0014 ',
+        imgUrl: 'https://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/a40ee278d67000f2a29d2e20f6a029b3.png',
+        desc: '自然风光'
       }
       ]
     }
@@ -88,33 +113,35 @@ export default {
   .icons >>> .swiper-container
     height :0
     padding-bottom :50%
-  .icon
-    position :relative
-    float :left
-    overflow :hidden
-    width :25%
-    height :0
-    padding-bottom :25%
-    .iconImg
-      position :absolute
-      top:0
-      left:0
-      right :0
-      bottom : .30rem
-      box-sizing : border-box
-      padding:.1rem
-      .icon-img-content
-          display :block
-          height  :100%
-          margin : 0 auto
-    .icon-desc
-      position :absolute
-      bottom:0
-      left:0
-      right :0
-      text-align :center
-      height : .44rem
-      line-height :.44rem
-      color :$darkTextColor
-      ellipse()
+  .icons
+    margin-top :.2rem
+    .icon
+      position :relative
+      float :left
+      overflow :hidden
+      width :25%
+      height :0
+      padding-bottom :25%
+      .iconImg
+        position :absolute
+        top:0
+        left:0
+        right :0
+        bottom : .30rem
+        box-sizing : border-box
+        padding:.1rem
+        .icon-img-content
+            display :block
+            height  :100%
+            margin : 0 auto
+      .icon-desc
+        position :absolute
+        bottom:0
+        left:0
+        right :0
+        text-align :center
+        height : .44rem
+        line-height :.44rem
+        color :$darkTextColor
+        ellipse()
 </style>
